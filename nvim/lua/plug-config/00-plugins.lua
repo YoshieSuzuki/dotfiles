@@ -55,45 +55,46 @@ return packer.startup(function(use)
   require("lsp-config.n-cmp-plug").cmp_use(use)
   use("windwp/nvim-autopairs")
 
-  -- -- others
-  -- use("rcarriga/nvim-notify")
-  -- use("nixon/vim-vmath")
-  -- use("google/vim-searchindex") -- show how many occurrence [n/N]
-  -- use("bronson/vim-trailing-whitespace") -- highlight trailing whitespace
-  -- use("Yggdroot/indentLine") -- show indent line with |
-  -- -- use * in visual mode
-  -- use("inkarkat/vim-ingo-library")
-  -- use("inkarkat/vim-SearchHighlighting")
-  -- -- Custom operations
-  -- use("tpope/vim-repeat") -- better repetition
-  -- use("christoomey/vim-titlecase") -- gzz
-  -- use("christoomey/vim-sort-motion") -- gs<motion> eg. gs2j => sort 3 lines
-  -- use("tpope/vim-surround") -- s is motion, ys to add
-  -- use("terryma/vim-expand-region") -- + to expand, _ to shrink
-  -- use("vim-scripts/ReplaceWithRegister") -- {Visual}["x]gr - replace {Visual} with register x
-  -- use("michaeljsmith/vim-indent-object") -- ai, ii, aI, iI: text object of same indent (i; above, a; above and below)
-  -- use("unblevable/quick-scope") -- highlights f, t, F, T
-  -- use("justinmk/vim-sneak") -- s, S to jump anywhere
-  -- -- argument commands
-  -- use("PeterRincker/vim-argumentative")
-  -- use("wellle/targets.vim")
-  -- -- dragviduals
-  -- use("zirrostig/vim-schlepp")
-  -- -- undo tree
-  -- use("mbbill/undotree")
+  -- others
+  use("rcarriga/nvim-notify")
+  use("nixon/vim-vmath")
+  use("google/vim-searchindex")
+  -- show how many occurrence [n/N]
+  use("bronson/vim-trailing-whitespace") -- highlight trailing whitespace
+  use("Yggdroot/indentLine") -- show indent line with |
+  -- use * in visual mode
+  use("inkarkat/vim-ingo-library")
+  use("inkarkat/vim-SearchHighlighting")
+  -- Custom operations
+  use("tpope/vim-repeat") -- better repetition
+  use("christoomey/vim-titlecase") -- gzz
+  use("christoomey/vim-sort-motion") -- gs<motion> eg. gs2j => sort 3 lines
+  use("tpope/vim-surround") -- s is motion, ys to add
+  use("terryma/vim-expand-region") -- + to expand, _ to shrink
+  use("vim-scripts/ReplaceWithRegister") -- {Visual}["x]gr - replace {Visual} with register x
+  use("michaeljsmith/vim-indent-object") -- ai, ii, aI, iI: text object of same indent (i; above, a; above and below)
+  use("unblevable/quick-scope") -- highlights f, t, F, T
+  use("justinmk/vim-sneak") -- s, S to jump anywhere
+  -- argument commands
+  use("PeterRincker/vim-argumentative")
+  use("wellle/targets.vim")
+  -- dragviduals
+  use("zirrostig/vim-schlepp")
+  -- undo tree
+  use("mbbill/undotree")
   -- file explorer
   use("kyazdani42/nvim-web-devicons")
   use("kyazdani42/nvim-tree.lua")
-  -- -- colorizer
-  -- use("norcalli/nvim-colorizer.lua")
+  -- colorizer
+  use("norcalli/nvim-colorizer.lua")
 
-  -- -- startify
-  -- use("mhinz/vim-startify")
-  -- -- zenmode
-  -- use("folke/zen-mode.nvim")
+  -- startify
+  use("mhinz/vim-startify")
+  -- zenmode
+  use("folke/zen-mode.nvim")
 
-  -- -- terminal
-  -- use("akinsho/toggleterm.nvim")
+  -- terminal
+  use("akinsho/toggleterm.nvim")
 
   -- color theme
   use("lunarvim/darkplus.nvim")
@@ -106,19 +107,19 @@ return packer.startup(function(use)
   use({ "akinsho/bufferline.nvim", requires = "kyazdani42/nvim-web-devicons" })
   use({ "nvim-lualine/lualine.nvim", requires = { "kyazdani42/nvim-web-devicons", opt = true } })
 
-  -- -- language specific
-  -- use("pixelneo/vim-python-docstring")
-  -- use({
-  --   "heavenshell/vim-jsdoc",
-  --   ft = { "javascript", "javascript.jsx", "typescript" },
-  --   run = "make install",
-  -- })
-  -- use("uarun/vim-protobuf")
-  -- use("tikhomirov/vim-glsl")
-  -- use("lervag/vimtex")
-  -- use("godlygeek/tabular")
-  -- use("plasticboy/vim-markdown")
-  -- use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install" })
+  -- language specific
+  use("pixelneo/vim-python-docstring")
+  use({
+    "heavenshell/vim-jsdoc",
+    ft = { "javascript", "javascript.jsx", "typescript" },
+    run = "make install",
+  })
+  use("uarun/vim-protobuf")
+  use("tikhomirov/vim-glsl")
+  use("lervag/vimtex")
+  use("godlygeek/tabular")
+  use("plasticboy/vim-markdown")
+  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install" })
 
   if PACKER_BOOTSTRAP then
     require("packer").sync()

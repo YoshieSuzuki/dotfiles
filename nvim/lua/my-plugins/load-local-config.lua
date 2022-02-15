@@ -20,4 +20,4 @@ augroup MyAutoCmds
 augroup END
 ]])
 
-return M
+return

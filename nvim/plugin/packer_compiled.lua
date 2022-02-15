@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ReplaceWithRegister = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
+    url = "https://github.com/vim-scripts/ReplaceWithRegister"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -159,6 +164,11 @@ _G.packer_plugins = {
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  indentLine = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/indentLine",
+    url = "https://github.com/Yggdroot/indentLine"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -189,6 +199,11 @@ _G.packer_plugins = {
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
@@ -198,6 +213,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-notify"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/nvim-notify",
+    url = "https://github.com/rcarriga/nvim-notify"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -239,10 +259,20 @@ _G.packer_plugins = {
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
+  ["quick-scope"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/quick-scope",
+    url = "https://github.com/unblevable/quick-scope"
+  },
   ripgrep = {
     loaded = true,
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/ripgrep",
     url = "https://github.com/BurntSushi/ripgrep"
+  },
+  ["targets.vim"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/targets.vim",
+    url = "https://github.com/wellle/targets.vim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
@@ -259,20 +289,110 @@ _G.packer_plugins = {
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  undotree = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/undotree",
+    url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-SearchHighlighting"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-SearchHighlighting",
+    url = "https://github.com/inkarkat/vim-SearchHighlighting"
+  },
+  ["vim-argumentative"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-argumentative",
+    url = "https://github.com/PeterRincker/vim-argumentative"
+  },
   ["vim-code-dark"] = {
     loaded = true,
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-code-dark",
     url = "https://github.com/tomasiser/vim-code-dark"
+  },
+  ["vim-expand-region"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-expand-region",
+    url = "https://github.com/terryma/vim-expand-region"
   },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-indent-object"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-indent-object",
+    url = "https://github.com/michaeljsmith/vim-indent-object"
+  },
+  ["vim-ingo-library"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-ingo-library",
+    url = "https://github.com/inkarkat/vim-ingo-library"
+  },
+  ["vim-repeat"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-repeat",
+    url = "https://github.com/tpope/vim-repeat"
+  },
+  ["vim-schlepp"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-schlepp",
+    url = "https://github.com/zirrostig/vim-schlepp"
+  },
+  ["vim-searchindex"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-searchindex",
+    url = "https://github.com/google/vim-searchindex"
+  },
+  ["vim-sneak"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-sneak",
+    url = "https://github.com/justinmk/vim-sneak"
+  },
+  ["vim-sort-motion"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-sort-motion",
+    url = "https://github.com/christoomey/vim-sort-motion"
+  },
+  ["vim-startify"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-startify",
+    url = "https://github.com/mhinz/vim-startify"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
+  },
+  ["vim-titlecase"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-titlecase",
+    url = "https://github.com/christoomey/vim-titlecase"
+  },
   ["vim-tomorrow-theme"] = {
     loaded = true,
     path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-tomorrow-theme",
     url = "https://github.com/chriskempson/vim-tomorrow-theme"
+  },
+  ["vim-trailing-whitespace"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-trailing-whitespace",
+    url = "https://github.com/bronson/vim-trailing-whitespace"
+  },
+  ["vim-vmath"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/vim-vmath",
+    url = "https://github.com/nixon/vim-vmath"
+  },
+  ["zen-mode.nvim"] = {
+    loaded = true,
+    path = "/Users/yoshihotaru/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
+    url = "https://github.com/folke/zen-mode.nvim"
   }
 }
 

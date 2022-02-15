@@ -3,7 +3,7 @@ require("notify").setup({
   on_open = nil,
   on_close = nil,
   render = "default",
-  timeout = 800,
+  timeout = 1000,
   max_width = nil,
   max_height = nil,
   background_colour = "Normal",
