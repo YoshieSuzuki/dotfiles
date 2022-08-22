@@ -109,12 +109,18 @@ return packer.startup(function(use)
 
   -- language specific
   use("pixelneo/vim-python-docstring")
+  use("vim-scripts/javacomplete")
+  use("vim-scripts/java")
+  use("Shougo/neocomplcache")
+  use("Shougo/neosnippet")
+  use("thinca/vim-quickrun")
   use({
     "heavenshell/vim-jsdoc",
     ft = { "javascript", "javascript.jsx", "typescript" },
     run = "make install",
   })
   use("uarun/vim-protobuf")
+  use("Vimjas/vim-python-pep8-indent")
   use("tikhomirov/vim-glsl")
   use("lervag/vimtex")
   use("godlygeek/tabular")

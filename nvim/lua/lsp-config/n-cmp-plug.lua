@@ -35,6 +35,8 @@ M.cmp_use = function(use)
   -- others
   use("numToStr/Comment.nvim")
   use("JoosepAlviste/nvim-ts-context-commentstring")
+
+  use("j-hui/fidget.nvim")
 end
 
 return M
